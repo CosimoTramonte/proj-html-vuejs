@@ -59,7 +59,7 @@ export default {
 
     .ct-container{
         height: calc(100% - 90px);
-        padding-left: 180px;
+        padding-left: 11%;
         display: flex;
 
         .divInfo{

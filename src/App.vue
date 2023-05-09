@@ -2,12 +2,14 @@
 <script>
 import Header from './components/Header.vue';
 import Jumbotron from './components/Jumbotron.vue';
+import MoreAbout from './components/MoreAbout.vue';
 
 export default {
   name:"App",
   components:{
     Header,
-    Jumbotron
+    Jumbotron,
+    MoreAbout
   }
 }
 </script>
@@ -19,6 +21,8 @@ export default {
       <Header/>
       <Jumbotron/>
     </div>
+
+    <MoreAbout/>
   </div>
 
 </template>
