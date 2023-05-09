@@ -43,6 +43,7 @@ export default {
             p{
                 font-size: 30px;
                 text-align: center;
+                padding: 15px 0;
             }
 
             button{

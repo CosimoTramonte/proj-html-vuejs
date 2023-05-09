@@ -17,6 +17,11 @@ export default {
                 <span>– The New York Times</span>
             </div>
 
+            <div class="nextPrevDiv">
+                <button><i class="fa-solid fa-arrow-left"></i></button>
+                <button><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
         </div>
 
         <div class="divLatestBook">
@@ -61,11 +66,15 @@ export default {
         height: calc(100% - 90px);
         padding-left: 11%;
         display: flex;
+        justify-content: space-between;
 
         .divInfo{
             width: 50%;
             height: 100%;
             @include centerFlex("vertical");
+            justify-content: center;
+            flex-direction: column;
+            padding-right: 20px;
 
             .info{
 
@@ -86,10 +95,26 @@ export default {
                     font-size: 25px;
                 }
             }
+
+            .nextPrevDiv{
+                padding-top: 50px;
+                display: flex;
+                align-items: flex-start;
+                width: 100%;
+
+                button{
+                    margin: 0 10px;
+                    padding: 5px 10px;
+                    background-color: rgba(0, 0, 0, 0.63);
+                    color: white;
+                    border: 1px solid black;
+                    border-radius: 10px;
+                }
+            }
         }
 
         .divLatestBook{
-            width: 50%;
+            width: 46%;
             height: 100%;
             display: flex;
             flex-direction: column;

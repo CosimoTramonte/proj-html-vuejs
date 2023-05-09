@@ -3,13 +3,16 @@
 import Header from './components/Header.vue';
 import Jumbotron from './components/Jumbotron.vue';
 import MoreAbout from './components/MoreAbout.vue';
+import AudioBook from './components/AudioBook.vue';
+
 
 export default {
   name:"App",
   components:{
     Header,
     Jumbotron,
-    MoreAbout
+    MoreAbout,
+    AudioBook
   }
 }
 </script>
@@ -23,6 +26,7 @@ export default {
     </div>
 
     <MoreAbout/>
+    <AudioBook/>
   </div>
 
 </template>
