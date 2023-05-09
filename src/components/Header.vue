@@ -14,7 +14,7 @@ export default {
 
 <template>
 
-  <div class="container">
+  <div class="ct-container">
 
     <div class="logoDiv">
         <img src="../assets/img/author-logo-round.png" alt="logo author">
@@ -35,10 +35,11 @@ export default {
     @use "../scss/partials/utilities" as *;
     @use "../scss/partials/mixin" as *;
 
-    .container{
+    .ct-container{
         height: 90px;
         @include centerFlex("both");
         justify-content: space-between;
+        margin: 0 80px;
 
         .logoDiv{
             height: 100%;
