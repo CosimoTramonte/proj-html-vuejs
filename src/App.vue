@@ -6,6 +6,7 @@ import MoreAbout from './components/MoreAbout.vue';
 import AudioBook from './components/AudioBook.vue';
 import WhatCriticsSay from './components/WhatCriticsSay.vue';
 import UpComing from './components/UpComing.vue';
+import Subscribe from "./components/Subscribe.vue"
 
 
 export default {
@@ -16,7 +17,8 @@ export default {
     MoreAbout,
     AudioBook,
     WhatCriticsSay,
-    UpComing
+    UpComing,
+    Subscribe
   }
 }
 </script>
@@ -33,6 +35,7 @@ export default {
     <AudioBook/>
     <WhatCriticsSay/>
     <UpComing/>
+    <Subscribe/>
   </div>
 
 </template>

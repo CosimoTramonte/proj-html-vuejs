@@ -219,7 +219,7 @@ export default {
                 p{
                     color: #737A82;
                     line-height: 30px;
-                    padding: 0 2080;
+                    padding: 0 20px;
                     font-weight: 400;
                     font-family: "DM Sans", Arial, Helvetica, sans-serif;
                     font-size: 18px;
