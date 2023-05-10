@@ -125,8 +125,7 @@ export default {
                 padding: 15% 16%;
                 border-end-end-radius: 100px;
                 max-height: 780px;
-
-                
+          
                 h2{
                     font-family: "DM Serif Display",serif;
                     font-size: 40px;

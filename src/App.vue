@@ -5,6 +5,7 @@ import Jumbotron from './components/Jumbotron.vue';
 import MoreAbout from './components/MoreAbout.vue';
 import AudioBook from './components/AudioBook.vue';
 import WhatCriticsSay from './components/WhatCriticsSay.vue';
+import UpComing from './components/UpComing.vue';
 
 
 export default {
@@ -14,7 +15,8 @@ export default {
     Jumbotron,
     MoreAbout,
     AudioBook,
-    WhatCriticsSay
+    WhatCriticsSay,
+    UpComing
   }
 }
 </script>
@@ -30,6 +32,7 @@ export default {
     <MoreAbout/>
     <AudioBook/>
     <WhatCriticsSay/>
+    <UpComing/>
   </div>
 
 </template>
