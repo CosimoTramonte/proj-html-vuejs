@@ -56,6 +56,20 @@ export default {
         .infoDiv{
             background-color: white;
             padding: 35px;
+
+            h3{
+                font-family: "DM Sans", Arial, Helvetica, sans-serif;
+                font-size: 26px;
+            }
+
+            p{
+                color: #737A82;
+                line-height: 30px;
+                padding: 0 20px;
+                font-weight: 400;
+                font-family: "DM Sans", Arial, Helvetica, sans-serif;
+                font-size: 18px;
+            }
         }
 
     }
