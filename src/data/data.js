@@ -36,7 +36,7 @@ const NavMenu = [
     },
     {
         href: "#",
-        text: "cart-shopping",
+        text: "<i class='fa-solid fa-cart-shopping'></i>",
         isActive: false
     }
 ]

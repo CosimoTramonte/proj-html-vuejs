@@ -4,6 +4,7 @@ import Header from './components/Header.vue';
 import Jumbotron from './components/Jumbotron.vue';
 import MoreAbout from './components/MoreAbout.vue';
 import AudioBook from './components/AudioBook.vue';
+import WhatCriticsSay from './components/WhatCriticsSay.vue';
 
 
 export default {
@@ -12,7 +13,8 @@ export default {
     Header,
     Jumbotron,
     MoreAbout,
-    AudioBook
+    AudioBook,
+    WhatCriticsSay
   }
 }
 </script>
@@ -27,12 +29,17 @@ export default {
 
     <MoreAbout/>
     <AudioBook/>
+    <WhatCriticsSay/>
   </div>
 
 </template>
 
 <style lang="scss">
   @use "./scss/main.scss";
+
+  body{
+    overflow-x: hidden ;
+  }
 
   .background{
     width: 100vw;

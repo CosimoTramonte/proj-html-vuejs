@@ -68,6 +68,7 @@ export default {
         display: flex;
         justify-content: space-between;
 
+
         .divInfo{
             width: 50%;
             height: 100%;

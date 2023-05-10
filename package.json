@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/dm-sans": "^4.5.9",
     "@fontsource/dm-serif-display": "^4.5.10",
     "@fontsource/kristi": "^4.5.10",
     "@fortawesome/fontawesome-free": "^6.4.0",

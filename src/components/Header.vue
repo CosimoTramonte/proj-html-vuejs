@@ -22,7 +22,7 @@ export default {
 
     <nav>
         <ul>
-            <li v-for="(li,index) in NavMenu" :key="index" :class="{'active' : li.isActive}"><a href="#">{{ li.text }}</a></li>
+            <li v-for="(li,index) in NavMenu" :key="index" :class="{'active' : li.isActive}"><a href="#" v-html="li.text"></a></li>
         </ul>
     </nav>
 
