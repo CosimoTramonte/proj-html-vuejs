@@ -8,6 +8,7 @@ import WhatCriticsSay from './components/WhatCriticsSay.vue';
 import UpComing from './components/UpComing.vue';
 import Subscribe from "./components/Subscribe.vue";
 import ALittleDeeper from './components/ALittleDeeper.vue';
+import RecentArticles from './components/RecentArticles.vue';
 
 
 export default {
@@ -20,7 +21,8 @@ export default {
     WhatCriticsSay,
     UpComing,
     Subscribe,
-    ALittleDeeper
+    ALittleDeeper,
+    RecentArticles
   }
 }
 </script>
@@ -39,6 +41,7 @@ export default {
     <UpComing/>
     <Subscribe/>
     <ALittleDeeper/>
+    <RecentArticles/>
   </div>
 
 </template>

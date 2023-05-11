@@ -44,6 +44,10 @@ export default {
 
     section{
         text-align: center;
+        @include centerFlex("orizontal");
+        flex-direction: column;
+        width: 84%;
+        margin: 0 auto;
         padding: 5%;
 
         h2{
