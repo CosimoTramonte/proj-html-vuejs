@@ -8,7 +8,7 @@ export default {
         return{
             NavMenu
         }
-    }
+    },
 }
 </script>
 
@@ -63,18 +63,30 @@ export default {
                     padding: 18px;
                     padding-top: 35px;
                     border-top: 5px solid transparent;
+                    transition: all 0.3s;
 
+
+                    &:hover{
+                        border-top: 5px solid $primary-color;
+                    }
+
+                    
                     &.active{
                         border-top: 5px solid $primary-color;
-
+                        
                         a{
                             color: $primary-color;
                         }
                     }
-
+                    
                     a{
                         text-decoration: none;
                         color: $white-text;
+                        transition: all 0.3s;
+
+                        &:hover{
+                            color: $primary-color;
+                        }
                     }
                 }
             }

@@ -115,6 +115,7 @@ export default {
                     ul{
                         list-style: none;
                         font-family: "DM Sans", Arial, Helvetica, sans-serif;
+                        
 
                         li{
                             color: white;
@@ -151,6 +152,7 @@ export default {
                     ul{
                         list-style: none;
                         font-family: "DM Sans", Arial, Helvetica, sans-serif;
+                        padding-left: 0 !important;
 
                         li{
                             padding: 5px 0;
@@ -164,6 +166,12 @@ export default {
                         .social{
                             padding: 0 10px;
                             cursor: pointer;
+
+                            &:hover{
+                                i{
+                                    color: $primary-color;
+                                }
+                            }
                         }
                     }
                 }

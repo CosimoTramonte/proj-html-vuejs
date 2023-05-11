@@ -113,7 +113,7 @@ export default {
             background-repeat: no-repeat;
             background-size: cover; 
             background-position: center;
-            width: 58%;
+            width: 55%;
             color: $white-text;
             border-end-end-radius: 100px;
             max-height: 780px;
@@ -155,7 +155,7 @@ export default {
         }
 
         .otherTestimonials{
-            width: 40%;
+            width: 38%;
             height: 100%;
             @include centerFlex("orizontal");
             flex-direction: column;
