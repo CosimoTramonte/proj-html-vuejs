@@ -9,6 +9,7 @@ import UpComing from './components/UpComing.vue';
 import Subscribe from "./components/Subscribe.vue";
 import ALittleDeeper from './components/ALittleDeeper.vue';
 import RecentArticles from './components/RecentArticles.vue';
+import Footer from "./components/Footer.vue"
 
 
 export default {
@@ -22,7 +23,8 @@ export default {
     UpComing,
     Subscribe,
     ALittleDeeper,
-    RecentArticles
+    RecentArticles,
+    Footer
   }
 }
 </script>
@@ -42,6 +44,7 @@ export default {
     <Subscribe/>
     <ALittleDeeper/>
     <RecentArticles/>
+    <Footer/>
   </div>
 
 </template>
