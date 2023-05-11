@@ -54,6 +54,7 @@ export default {
         &:hover{
             transform: scale(1.05);
             cursor: pointer;
+            box-shadow: 0 0 10px 5px rgba(90, 90, 90, 0.219);
         }
 
         .imgDiv{

@@ -41,6 +41,25 @@ const NavMenu = [
     }
 ];
 
+const jumboArticle = [
+    {
+        article:"Best-Selling Author And The Most Influential Public Intellectual In The Western World Right Now.",
+        fonts:"– The New York Times"
+    },
+    {
+        article:"This Is Simply Avant-Garde, It Will Be One Of The Best Authors That Humanity Has Ever Known",
+        fonts:"– The Guardian"
+    },
+    {
+        article:"His Way Of Writing Is Innovative, He Seems To Be From Another Generation",
+        fonts:"– The Globe And Mail"
+    },
+    {
+        article:"The Most Promising Author Of The Last 100 Years",
+        fonts:"– Forbes"
+    },
+]
+
 const CardUpComing = [
     {
         image: "event-05.jpg",
@@ -138,4 +157,4 @@ const FooterMenu = {
 }
 
 
-export {NavMenu, CardUpComing, CardALittleDeeper, FooterMenu}
+export {NavMenu, CardUpComing, CardALittleDeeper, FooterMenu,jumboArticle}

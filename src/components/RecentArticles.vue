@@ -118,10 +118,21 @@ export default {
             background: white;
             padding: 4%;
 
+            &:hover{
+                img{
+                    filter:brightness(1.5);
+                    filter: hue-rotate(90deg);
+                    filter: opacity(90%);
+                    cursor: pointer;
+                }
+            }
+            
             img{
+                cursor: pointer;
                 width: 100%;
                 object-fit: contain;
                 padding-bottom: 4%;
+                transition: all 0.4s;
             }
 
             .infoDiv{
@@ -157,7 +168,8 @@ export default {
                 width: 100%;
                 height: 45%;
                 position: relative;
-                overflow-y: hidden;            
+                overflow-y: hidden;  
+                cursor: pointer;          
 
                 &:hover .infoDiv{
                     bottom: -200px 
@@ -198,9 +210,10 @@ export default {
                 height: 45%;
                 position: relative;
                 overflow-y: hidden;            
+                cursor: pointer;
 
                 &:hover .infoDiv{
-                    bottom: -200px 
+                    bottom: -200px ;
                 }
 
                 img{

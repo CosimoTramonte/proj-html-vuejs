@@ -20,7 +20,9 @@ export default {
     <div class="ct-card">
 
         <div class="imgDiv">
+
             <img :src="getImage(image)" alt="Upcoming Img">
+
         </div>
 
         <div class="infoDiv">
@@ -46,20 +48,36 @@ export default {
 
         .imgDiv{
             width: 100%;
-
+            
+            &:hover{
+                img{
+                    filter:brightness(1.25);
+                    filter: hue-rotate(20deg);
+                    filter: opacity(90%);
+                    cursor: pointer;
+                }
+            }
+            
             img{
                 width: 100%;
                 object-fit: contain;
+                transition: all 0.4s;
             }
         }
 
         .infoDiv{
             background-color: white;
             padding: 35px;
-
+            
             h3{
                 font-family: "DM Sans", Arial, Helvetica, sans-serif;
                 font-size: 26px;
+                transition: all 0.3s;
+
+                &:hover{
+                    color: $primary-color;
+                    cursor: pointer;
+                }
             }
 
             p{

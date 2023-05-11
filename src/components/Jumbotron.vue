@@ -1,7 +1,28 @@
 
 <script>
+import { Swiper, SwiperSlide } from 'swiper/vue';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { Pagination, Navigation, Autoplay } from 'swiper';
+import {jumboArticle} from "../data/data"
+
 export default {
     name: "Jumbotron",
+    data(){
+        return{
+            jumboArticle
+        }
+    },
+    components: {
+      Swiper,
+      SwiperSlide,
+    },
+    setup() {
+      return {
+        modules: [Pagination, Navigation, Autoplay],
+      };
+    },
 }
 </script>
 
@@ -12,14 +33,27 @@ export default {
         <div class="divInfo">
 
             <div class="info">
-                <h1>Damon Vanghn</h1>
-                <p>Best-Selling Author And The Most Influential Public Intellectual In The Western World Right Now.</p>
-                <span>– The New York Times</span>
-            </div>
 
-            <div class="nextPrevDiv">
-                <button><i class="fa-solid fa-arrow-left"></i></button>
-                <button><i class="fa-solid fa-arrow-right"></i></button>
+                <h1>Damon Vanghn</h1>
+                <swiper
+                    :slidesPerView="1"
+                    :spaceBetween="30"
+                    :loop="true"
+                    :autoplay="{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }"
+                    :navigation="false"
+                    :modules="modules"
+                    class="mySwiper"
+                >
+                    
+                    <swiper-slide v-for="(article,index) in jumboArticle" :key="index">
+                        <p>{{ article.article }}</p>
+                        <span>{{ article.fonts }}</span>
+                    </swiper-slide>
+
+                </swiper>
             </div>
 
         </div>
@@ -72,7 +106,7 @@ export default {
         .divInfo{
             width: 50%;
             height: 100%;
-            @include centerFlex("vertical");
+            display: flex;
             justify-content: center;
             flex-direction: column;
             padding-right: 20px;
