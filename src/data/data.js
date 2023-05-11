@@ -57,7 +57,25 @@ const CardUpComing = [
         title: "Open Book: Dialogues",
         description: "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a nulla.",
     },
+];
+
+const CardALittleDeeper = [
+    {
+        image:"box-1.jpg",
+        title:"About Me",
+        description:"Vestibulum ante ipsum primis",
+    },
+    {
+        image:"box-4.jpg",
+        title:"My Latest Book",
+        description:"Vestibulum ante ipsum primis",
+    },
+    {
+        image:"box-3.jpg",
+        title:"Book Signing",
+        description:"Vestibulum ante ipsum primis",
+    },
 ]
 
 
-export {NavMenu, CardUpComing}
+export {NavMenu, CardUpComing, CardALittleDeeper}

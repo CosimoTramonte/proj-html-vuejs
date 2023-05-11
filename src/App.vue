@@ -6,7 +6,8 @@ import MoreAbout from './components/MoreAbout.vue';
 import AudioBook from './components/AudioBook.vue';
 import WhatCriticsSay from './components/WhatCriticsSay.vue';
 import UpComing from './components/UpComing.vue';
-import Subscribe from "./components/Subscribe.vue"
+import Subscribe from "./components/Subscribe.vue";
+import ALittleDeeper from './components/ALittleDeeper.vue';
 
 
 export default {
@@ -18,7 +19,8 @@ export default {
     AudioBook,
     WhatCriticsSay,
     UpComing,
-    Subscribe
+    Subscribe,
+    ALittleDeeper
   }
 }
 </script>
@@ -36,6 +38,7 @@ export default {
     <WhatCriticsSay/>
     <UpComing/>
     <Subscribe/>
+    <ALittleDeeper/>
   </div>
 
 </template>
